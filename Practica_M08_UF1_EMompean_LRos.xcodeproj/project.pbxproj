@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF2CBA18204EF35C009441BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2CBA17204EF35C009441BA /* AppDelegate.swift */; };
+		EF2CBA1D204EF35C009441BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2CBA1B204EF35C009441BA /* Main.storyboard */; };
+		EF2CBA1F204EF35C009441BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2CBA1E204EF35C009441BA /* Assets.xcassets */; };
+		EF2CBA22204EF35C009441BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2CBA20204EF35C009441BA /* LaunchScreen.storyboard */; };
+		EF3CE6A720517E680077039C /* splashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3CE6A620517E670077039C /* splashScreen.png */; };
+		EF3CE6A9205181C00077039C /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3CE6A8205181C00077039C /* TableTableViewController.swift */; };
+		EF3CE6AF205186B40077039C /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3CE6AE205186B40077039C /* AddItemViewController.swift */; };
+		EF3CE6B2205189270077039C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3CE6B1205189270077039C /* libsqlite3.tbd */; };
+		EF3CE6C0205189CA0077039C /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3CE6B5205189CA0077039C /* FMDatabaseQueue.m */; };
+		EF3CE6C1205189CA0077039C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3CE6B6205189CA0077039C /* FMDatabasePool.m */; };
+		EF3CE6C3205189CA0077039C /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3CE6BA205189CA0077039C /* FMDatabaseAdditions.m */; };
+		EF3CE6C4205189CA0077039C /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3CE6BE205189CA0077039C /* FMResultSet.m */; };
+		EF3CE6C5205189CA0077039C /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3CE6BF205189CA0077039C /* FMDatabase.m */; };
+		EF6912572061611F0091C847 /* SerieDetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6912562061611F0091C847 /* SerieDetalleViewController.swift */; };
+		EFD21F97205ABD0D007F4EC9 /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD21F96205ABD0D007F4EC9 /* Serie.swift */; };
+		EFD21F99205ABEA3007F4EC9 /* SeriesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD21F98205ABEA3007F4EC9 /* SeriesManager.swift */; };
+		EFD3461220581DDB00B078F5 /* SQLiteSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD3461120581DDB00B078F5 /* SQLiteSingleton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF2CBA14204EF35C009441BA /* Practica_M08_UF1_EMompean_LRos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practica_M08_UF1_EMompean_LRos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2CBA17204EF35C009441BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF2CBA1C204EF35C009441BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF2CBA1E204EF35C009441BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF2CBA21204EF35C009441BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF2CBA23204EF35C009441BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3CE6A620517E670077039C /* splashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splashScreen.png; path = ../../splashScreen.png; sourceTree = "<group>"; };
+		EF3CE6A8205181C00077039C /* TableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
+		EF3CE6AE205186B40077039C /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		EF3CE6B1205189270077039C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EF3CE6B3205189C90077039C /* Practica_M08_UF1_EMompean_LRos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Practica_M08_UF1_EMompean_LRos-Bridging-Header.h"; sourceTree = "<group>"; };
+		EF3CE6B4205189C90077039C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		EF3CE6B5205189CA0077039C /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		EF3CE6B6205189CA0077039C /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		EF3CE6B7205189CA0077039C /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		EF3CE6B9205189CA0077039C /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		EF3CE6BA205189CA0077039C /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		EF3CE6BB205189CA0077039C /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		EF3CE6BC205189CA0077039C /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		EF3CE6BD205189CA0077039C /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		EF3CE6BE205189CA0077039C /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		EF3CE6BF205189CA0077039C /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		EF6912562061611F0091C847 /* SerieDetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerieDetalleViewController.swift; sourceTree = "<group>"; };
+		EFD21F96205ABD0D007F4EC9 /* Serie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
+		EFD21F98205ABEA3007F4EC9 /* SeriesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesManager.swift; sourceTree = "<group>"; };
+		EFD3461120581DDB00B078F5 /* SQLiteSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteSingleton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF2CBA11204EF35C009441BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3CE6B2205189270077039C /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF2CBA0B204EF35C009441BA = {
+			isa = PBXGroup;
+			children = (
+				EF2CBA16204EF35C009441BA /* Practica_M08_UF1_EMompean_LRos */,
+				EF2CBA15204EF35C009441BA /* Products */,
+				EF3CE6B0205189270077039C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF2CBA15204EF35C009441BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF2CBA14204EF35C009441BA /* Practica_M08_UF1_EMompean_LRos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2CBA16204EF35C009441BA /* Practica_M08_UF1_EMompean_LRos */ = {
+			isa = PBXGroup;
+			children = (
+				EF3CE6C620518A2C0077039C /* fmdb */,
+				EF2CBA17204EF35C009441BA /* AppDelegate.swift */,
+				EFD21F96205ABD0D007F4EC9 /* Serie.swift */,
+				EFD21F98205ABEA3007F4EC9 /* SeriesManager.swift */,
+				EF2CBA1B204EF35C009441BA /* Main.storyboard */,
+				EF2CBA1E204EF35C009441BA /* Assets.xcassets */,
+				EF3CE6A8205181C00077039C /* TableTableViewController.swift */,
+				EF2CBA20204EF35C009441BA /* LaunchScreen.storyboard */,
+				EF3CE6A620517E670077039C /* splashScreen.png */,
+				EF2CBA23204EF35C009441BA /* Info.plist */,
+				EF3CE6AE205186B40077039C /* AddItemViewController.swift */,
+				EF3CE6B3205189C90077039C /* Practica_M08_UF1_EMompean_LRos-Bridging-Header.h */,
+				EFD3461120581DDB00B078F5 /* SQLiteSingleton.swift */,
+				EF6912562061611F0091C847 /* SerieDetalleViewController.swift */,
+			);
+			path = Practica_M08_UF1_EMompean_LRos;
+			sourceTree = "<group>";
+		};
+		EF3CE6B0205189270077039C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF3CE6B1205189270077039C /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF3CE6C620518A2C0077039C /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				EF3CE6B9205189CA0077039C /* FMDatabase.h */,
+				EF3CE6BF205189CA0077039C /* FMDatabase.m */,
+				EF3CE6B4205189C90077039C /* FMDatabaseAdditions.h */,
+				EF3CE6BA205189CA0077039C /* FMDatabaseAdditions.m */,
+				EF3CE6BC205189CA0077039C /* FMDatabasePool.h */,
+				EF3CE6B6205189CA0077039C /* FMDatabasePool.m */,
+				EF3CE6B7205189CA0077039C /* FMDatabaseQueue.h */,
+				EF3CE6B5205189CA0077039C /* FMDatabaseQueue.m */,
+				EF3CE6BD205189CA0077039C /* FMDB.h */,
+				EF3CE6BB205189CA0077039C /* FMResultSet.h */,
+				EF3CE6BE205189CA0077039C /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF2CBA13204EF35C009441BA /* Practica_M08_UF1_EMompean_LRos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2CBA26204EF35C009441BA /* Build configuration list for PBXNativeTarget "Practica_M08_UF1_EMompean_LRos" */;
+			buildPhases = (
+				EF2CBA10204EF35C009441BA /* Sources */,
+				EF2CBA11204EF35C009441BA /* Frameworks */,
+				EF2CBA12204EF35C009441BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Practica_M08_UF1_EMompean_LRos;
+			productName = Practica_M08_UF1_EMompean_LRos;
+			productReference = EF2CBA14204EF35C009441BA /* Practica_M08_UF1_EMompean_LRos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF2CBA0C204EF35C009441BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "CFGS La Salle Gracia";
+				TargetAttributes = {
+					EF2CBA13204EF35C009441BA = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF2CBA0F204EF35C009441BA /* Build configuration list for PBXProject "Practica_M08_UF1_EMompean_LRos" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF2CBA0B204EF35C009441BA;
+			productRefGroup = EF2CBA15204EF35C009441BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF2CBA13204EF35C009441BA /* Practica_M08_UF1_EMompean_LRos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF2CBA12204EF35C009441BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2CBA22204EF35C009441BA /* LaunchScreen.storyboard in Resources */,
+				EF2CBA1F204EF35C009441BA /* Assets.xcassets in Resources */,
+				EF3CE6A720517E680077039C /* splashScreen.png in Resources */,
+				EF2CBA1D204EF35C009441BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF2CBA10204EF35C009441BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3CE6A9205181C00077039C /* TableTableViewController.swift in Sources */,
+				EF3CE6C0205189CA0077039C /* FMDatabaseQueue.m in Sources */,
+				EF3CE6C4205189CA0077039C /* FMResultSet.m in Sources */,
+				EFD21F99205ABEA3007F4EC9 /* SeriesManager.swift in Sources */,
+				EF3CE6C1205189CA0077039C /* FMDatabasePool.m in Sources */,
+				EFD21F97205ABD0D007F4EC9 /* Serie.swift in Sources */,
+				EF6912572061611F0091C847 /* SerieDetalleViewController.swift in Sources */,
+				EF2CBA18204EF35C009441BA /* AppDelegate.swift in Sources */,
+				EFD3461220581DDB00B078F5 /* SQLiteSingleton.swift in Sources */,
+				EF3CE6AF205186B40077039C /* AddItemViewController.swift in Sources */,
+				EF3CE6C3205189CA0077039C /* FMDatabaseAdditions.m in Sources */,
+				EF3CE6C5205189CA0077039C /* FMDatabase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF2CBA1B204EF35C009441BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2CBA1C204EF35C009441BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF2CBA20204EF35C009441BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2CBA21204EF35C009441BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF2CBA24204EF35C009441BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF2CBA25204EF35C009441BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF2CBA27204EF35C009441BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Practica_M08_UF1_EMompean_LRos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ErikLaura.Practica-M08-UF1-EMompean-LRos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Practica_M08_UF1_EMompean_LRos/Practica_M08_UF1_EMompean_LRos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF2CBA28204EF35C009441BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Practica_M08_UF1_EMompean_LRos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ErikLaura.Practica-M08-UF1-EMompean-LRos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Practica_M08_UF1_EMompean_LRos/Practica_M08_UF1_EMompean_LRos-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF2CBA0F204EF35C009441BA /* Build configuration list for PBXProject "Practica_M08_UF1_EMompean_LRos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2CBA24204EF35C009441BA /* Debug */,
+				EF2CBA25204EF35C009441BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2CBA26204EF35C009441BA /* Build configuration list for PBXNativeTarget "Practica_M08_UF1_EMompean_LRos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2CBA27204EF35C009441BA /* Debug */,
+				EF2CBA28204EF35C009441BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF2CBA0C204EF35C009441BA /* Project object */;
+}
